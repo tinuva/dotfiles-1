@@ -1,7 +1,3 @@
-gulp-cli
 neovim
-pug
-standard
-stylelint
-svgo
+create-react-app
 vue-cli
