@@ -16,7 +16,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 . $HOME/dotfiles/zsh/oh-my-zsh
 . $HOME/dotfiles/zsh/opts
 . $HOME/dotfiles/zsh/aliases
-. $HOME/dotfiles/zsh/prompt
 . $HOME/dotfiles/zsh/tmux
 . $HOME/dotfiles/zsh/functions
 . $HOME/dotfiles/zsh/z.sh
