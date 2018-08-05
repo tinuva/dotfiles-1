@@ -1,6 +1,7 @@
 # https://github.com/Homebrew/homebrew-bundle
 
 tap "caskroom/cask"
+tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "homebrew/bundle"
 tap "homebrew/core"
@@ -68,9 +69,8 @@ brew "zsh"
 cask "firefox"
 cask "google-chrome"
 cask "iterm2"
-cask "opera"
 cask "postman"
-cask "skype"
 cask "the-unarchiver"
 cask "tunnelbear"
 cask "vagrant"
+cask "font-hack-nerd-font" 

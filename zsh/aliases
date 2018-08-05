@@ -1,4 +1,5 @@
 # General UNIX
+alias c='clear'
 alias cp='cp -iv'
 alias df='df -h'
 alias du='du -h'
@@ -22,6 +23,7 @@ alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
 
 # Listing files and directories
+# alias ls="colorls --sd -r"# alias la="colorls -a"# alias lc="colorls -t"
 alias l='ls -lFh'     #size,show type,human readable
 alias lS='ls -1FSsh'
 alias la='ls -lAFh'   #long list,show almost all,show type,human readable
@@ -180,6 +182,5 @@ alias upd='softwareupdate -i -a'
 # Misc
 alias ct='ctags -R --languages=ruby --exclude=.git --exclude=log . $(bundle list --paths)'
 alias color='colortest -w -s'
-alias hangout='open https://hangouts.google.com/hangouts/_'
 alias htop='sudo htop'
 alias copy='tr -d "\n" | pbcopy'

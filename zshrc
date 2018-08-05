@@ -21,7 +21,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 . $HOME/dotfiles/zsh/functions
 . $HOME/dotfiles/zsh/z.sh
 
-cdpath=($HOME/code $HOME/dotfiles $HOME/Developer $HOME/Sites $HOME/Dropbox $HOME)
+cdpath=($HOME/code $HOME/dotfiles $HOME/Developer $HOME/Sites $HOME)
 
 HISTSIZE=1000000
 SAVEHIST=1000000

@@ -18,6 +18,7 @@ set -e # Terminate script if anything exits with a non-zero value
 DOTFILES_DIR=$HOME/dotfiles
 VIM_DIR=$HOME/.vim
 NVIM_DIR=$HOME/.config/nvim
+OH_MY_ZSH_DIR=$HOME/.oh-my-zsh
 
 files=(
 "asdfrc"
@@ -31,7 +32,6 @@ files=(
 "npmrc"
 "pryrc"
 "rubocop.yml"
-"svgo.yml"
 "tmux.conf"
 "tool-versions"
 "vimrc"
@@ -61,6 +61,13 @@ fi
 
 if [ ! -d "$NVIM_DIR" ]; then
   mkdir -p "$NVIM_DIR"
+fi
+
+if [ ! -d "OH_MY_ZSH_DIR" ]; then
+  dotfiles_echo "-> Installing spaceship prompt for oh-my-zsh..."
+  git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+  dotfiles_echo "-> Linking spaceship.zsh-theme..."
+  ln -nfs "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 fi
 
 dotfiles_echo "-> Linking $DOTFILES_DIR/vim/ftplugin to $VIM_DIR/ftplugin..."

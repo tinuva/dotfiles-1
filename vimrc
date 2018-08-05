@@ -55,7 +55,7 @@ set shiftwidth=2
 
 " Turn on line numbers AND use relative number
 set number
-set relativenumber
+" set relativenumber
 
 " Highlight tabs and trailing whitespace
 set list listchars=tab:»·,trail:·
@@ -78,8 +78,8 @@ set splitbelow
 set splitright
 
 " Highlight the current line and column
-set cursorline
-set cursorcolumn
+" set cursorline
+" set cursorcolumn
 
 " Ensure Vim doesn't beep at you every time you make a mistype
 set visualbell
