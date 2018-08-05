@@ -63,7 +63,7 @@ if [ ! -d "$NVIM_DIR" ]; then
   mkdir -p "$NVIM_DIR"
 fi
 
-if [ ! -d "OH_MY_ZSH_DIR" ]; then
+if [ ! -d "$OH_MY_ZSH_DIR" ]; then
   dotfiles_echo "-> Installing spaceship prompt for oh-my-zsh..."
   sudo git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
   dotfiles_echo "-> Linking spaceship.zsh-theme..."
