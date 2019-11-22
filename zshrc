@@ -1,19 +1,20 @@
 # ~/.zshrc
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
-export EDITOR="nvim"
+export EDITOR="nano"
 export BUNDLER_EDITOR=$EDITOR
 export MANPAGER="less -X" # Don’t clear the screen after quitting a manual page
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=/usr/local/sbin:$PATH:$GOPATH/bin
 export SOURCE_ANNOTATION_DIRECTORIES="spec"
 export DISABLE_AUTO_TITLE=true
 export _Z_OWNER=$USER
 export RUBY_CONFIGURE_OPTIONS='--with-opt-dir=/usr/local/opt/openssl:/usr/local/opt/readline:/usr/local/opt/libyaml:/usr/local/opt/gdbm'
 export XDG_CONFIG_HOME=$HOME/.config
 
-. $HOME/dotfiles/zsh/oh-my-zsh
+#. $HOME/dotfiles/zsh/oh-my-zsh
+. $HOME/dotfiles/zsh/grml
 . $HOME/dotfiles/zsh/opts
 . $HOME/dotfiles/zsh/aliases
 . $HOME/dotfiles/zsh/tmux
@@ -56,3 +57,6 @@ export KEYTIMEOUT=1
 
 # Include local settings
 [[ -f ~/.zshrc.local ]] && . ~/.zshrc.local
+
+# Syntax highlighting
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
