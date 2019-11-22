@@ -59,4 +59,4 @@ export KEYTIMEOUT=1
 [[ -f ~/.zshrc.local ]] && . ~/.zshrc.local
 
 # Syntax highlighting
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
