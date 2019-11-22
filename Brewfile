@@ -1,8 +1,8 @@
 # https://github.com/Homebrew/homebrew-bundle
 
-tap "caskroom/cask"
-tap "caskroom/fonts"
-tap "caskroom/versions"
+tap "homebrew/cask-cask" #tap "caskroom/cask"
+tap "homebrew/cask-fonts" #tap "caskroom/fonts"
+tap "homebrew/cask-versions" #tap "caskroom/versions"
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -33,11 +33,13 @@ brew "git-quick-stats"
 brew "gmp" # Vim dependency
 brew "gpg" # asdf-nodejs dependency
 brew "htop"
+brew "iftop"
 brew "imagemagick"
 brew "libtool" # asdf dependency
 brew "libxslt" # asdf dependency
 brew "libyaml" # asdf dependency
 brew "mas"
+brew "mtr"
 brew "neovim", args: ["HEAD"]
 brew "overmind"
 brew "pandoc"
@@ -66,11 +68,12 @@ brew "zsh"
 
 # homebrew-cask
 # https://github.com/caskroom/homebrew-cask
-cask "firefox"
-cask "google-chrome"
+#cask "firefox"
+#cask "google-chrome"
 cask "iterm2"
-cask "postman"
-cask "the-unarchiver"
-cask "tunnelbear"
-cask "vagrant"
+#cask "postman"
+#cask "the-unarchiver"
+#cask "tunnelbear"
+#cask "vagrant"
+cask "vivaldi"
 cask "font-hack-nerd-font" 
