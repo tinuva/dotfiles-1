@@ -1,2 +1,8 @@
 export GITHUB_USER=your_username
 export GITHUB_TOKEN=my123nuclear456launch789code
+
+# fix up/down arrow search
+autoload -Uz up-line-or-beginning-search
+zle -N up-line-or-beginning-search
+autoload -Uz down-line-or-beginning-search
+zle -N down-line-or-beginning-search
