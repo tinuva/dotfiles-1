@@ -20,6 +20,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 . $HOME/dotfiles/zsh/tmux
 . $HOME/dotfiles/zsh/functions
 . $HOME/dotfiles/zsh/z.sh
+. $HOME/dotfiles/zsh/up-down
 
 cdpath=($HOME/code $HOME/dotfiles $HOME/Developer $HOME/Sites $HOME)
 
