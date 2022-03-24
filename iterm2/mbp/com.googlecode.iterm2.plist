@@ -930,7 +930,7 @@
 			<key>Screen</key>
 			<integer>1</integer>
 			<key>Scrollback Lines</key>
-			<integer>50000</integer>
+			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
@@ -1074,7 +1074,7 @@
 			<key>Thin Strokes</key>
 			<integer>2</integer>
 			<key>Transparency</key>
-			<real>0.24292057118517285</real>
+			<real>0.05285167937583115</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unicode Version</key>
